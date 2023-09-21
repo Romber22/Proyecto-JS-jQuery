@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link id="css_tema" rel="stylesheet" type="text/css" href="./css/green.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- CSS para jQuery UI -->
+    <link rel="stylesheet" href="./js/jquery-ui-1.13.2/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./js/jquery-ui-1.13.2/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="./js/jquery-ui-1.13.2/jquery-ui.theme.min.css" />
+
+    <!-- jQuery UI -->
+    <script type="text/javascript" src="./js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/only_about.js"></script>
+
+    <title>Proyecto JS y jQuery</title>
+</head>
+
+<body>
+    <div id="cambiar_tema">
+        <div id="to_green" class="theme"></div>
+        <div id="to_red" class="theme"></div>
+        <div id="to_blue" class="theme"></div>
+    </div>
+    <section id="global">
+        <header>
+            <!-- TÍTULO -->
+            <div id="logo">
+                <h1>PRACTICANDO JS</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- MENÚ -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="#">Sobre mí</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- CONTENIDO -->
+        <section id="content">
+
+            <!-- ACORDEÓN -->
+            <div id="box">
+                <h2>Sobre mí</h2>
+                <div id="acordeon">
+                    <h3>¿Quiénes somos?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus erat, venenatis nec
+                            dui
+                            eu, fringilla eleifend tellus. Phasellus at scelerisque odio. Nam vitae venenatis ligula,
+                            vitae
+                            bibendum leo.
+                        </p>
+                    </div>
+                    <h3>Nuestros servicios</h3>
+                    <div>
+                        <p>
+                            Ut consectetur justo libero, sit amet eleifend turpis vestibulum eget. Aliquam blandit neque
+                            vel nisl mollis, bibendum scelerisque lorem blandit. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos. Nam facilisis, nunc in consectetur
+                            dignissim, purus quam commodo nibh, eget dapibus dolor mi non velit. Nullam ac condimentum
+                            urna. Pellentesque varius elementum felis vel fringilla. Cras placerat, sem vitae varius
+                            egestas, sem odio tincidunt sem, in vestibulum mi ligula id tortor. Nullam quis lectus
+                            cursus massa facilisis accumsan eget nec orci. Vestibulum vitae urna purus. Nam enim purus,
+                            molestie et magna vitae, ultricies ornare nibh. Phasellus lobortis, nunc vel imperdiet
+                            accumsan, felis augue volutpat neque, ac ultrices eros sapien at metus. Aenean ac viverra
+                            justo, ac vestibulum quam. Mauris fermentum, velit eu commodo consectetur, risus diam
+                            viverra libero, quis semper ex enim vel mauris.
+                        </p>
+                    </div>
+                    <h3>Nuestros clienes</h3>
+                    <div>
+                        <p>
+                            Vivamus a auctor tellus. Mauris eu sapien vulputate sem facilisis suscipit viverra id massa.
+                            Vestibulum tempus velit et elit consequat, laoreet rutrum lacus accumsan. Quisque fringilla
+                            nunc nisl. Morbi arcu odio, laoreet efficitur lacus eu, malesuada aliquam nunc. Integer
+                            auctor sit amet mi sed sodales. Donec rhoncus lorem lacinia, vulputate elit id, tincidunt
+                            libero.
+
+                            Nunc lobortis ut turpis quis volutpat. Quisque sit amet auctor eros. Vestibulum tempor
+                            turpis consectetur, convallis leo id, efficitur odio. Sed id fermentum diam. Nullam eu augue
+                            risus. Suspendisse ante mauris, fringilla nec aliquam eu, mollis non ligula. Sed nec quam
+                            non nulla imperdiet congue quis vitae odio. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nam consectetur mi sed lectus egestas egestas. Etiam a tortor nulla. Donec
+                            ut magna a libero tincidunt dictum. Donec eget elit eleifend, consequat metus vitae,
+                            lobortis sapien. Ut imperdiet sem tincidunt pulvinar pulvinar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MENÚ LATERAL  -->
+            <aside id="lateral">
+                <div id="about">
+                    <h3><span>¿Quién soy?</span></h3>
+                    <img src="./img/caracol.jpg" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus erat, venenatis nec dui
+                        eu, fringilla eleifend tellus. Phasellus at scelerisque odio. Nam vitae venenatis ligula, vitae
+                        bibendum leo.
+                    </p>
+                </div>
+
+                <!-- FORMULARIO -->
+                <div id="login">
+                    <h3><span>Identifícate</span></h3>
+                    <form>
+                        <label for="name">Nombre:</label><br />
+                        <input type="text" name="name" id="name" />
+                        <br />
+                        <label for="email">Correo:</label><br />
+                        <input type="email" name="email" id="email" />
+                        <br />
+                        <label for="password">Contraseña:</label><br />
+                        <input type="password" name="password" id="password" />
+                        <br />
+                        <input type="submit" />
+                    </form>
+                </div>
+            </aside>
+
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- FLECHA ARRIBA -->
+        <div class="subir">
+            <img src="./img/flecha-arriba.png" />
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        Proyecto de maquetación de una página web con JavaScript y jQuery hecho por Andrea Romero
+    </footer>
+</body>
+
+</html>

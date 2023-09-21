@@ -1,0 +1,25 @@
+body {
+    background-image: url("../img/hojas.jpg");
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: rgb(5, 87, 42);
+}
+
+#menu ul li:hover {
+    background-color:rgb(5, 87, 42);
+}
+
+.boton {
+    background-color: rgb(5, 87, 42);
+}
+
+/* Acordeón */
+.ui-accordion-header.ui-state-active { background-color: rgb(5, 87, 42); }
+
+/* Reloj */
+#reloj {
+    color: rgb(5, 87, 42);
+    border: 5px double rgb(5, 87, 42);
+}
