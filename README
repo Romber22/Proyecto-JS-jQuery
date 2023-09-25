@@ -7,8 +7,9 @@ En este proyecto he creado una página web utilizando las herramientas
 
 Se accederá a ella a través de "index.html", donde podremos movernos a las demás páginas sin ningún problema.
 Como podremos observar, la página costa de varias secciones:
+
 1. Página principal
-  Donde encontraremos una sección de libros de ejemplo cargados con JSON y un formulario falso para iniciar sesión, en le cual, guardo los datos de usuario en el LocalStorage.
+  Donde encontraremos una sección de libros de ejemplo cargados con JSON y un formulario falso para iniciar sesión, en el cual, guardo los datos de usuario en el LocalStorage.
   Adicionalmente también tendremos una cabecera y un estilo de página que se repite a lo largo de la navegación. 
   Cabe a destacar, a la izquierda de la pantalla veremos tres botones cuya utilidad es cambiar el tema de la página.
 
@@ -16,4 +17,8 @@ Como podremos observar, la página costa de varias secciones:
   Con JavaScript se puede ejecutar un reloj que funciona en directo.
 
 3. Sobre mí
-  En esta sección aparecerá una estructura denominada "acordeón" de carpetas que se consigue gracias a jQuery UI y las hojas de estilos del mismo. Aunque vienen estilos predeterminados, cambio algún color
+  En esta sección aparecerá una estructura denominada "acordeón" de carpetas que se consigue gracias a jQuery UI y las hojas de estilos del mismo. 
+  Aunque vienen estilos predeterminados, han sido modificados en las hojas de estilos.
+
+4. Contacta
+  Esta sección se caracteriza por un formulario que utiliza un plugin de validación de jQuery para que los datos sean introducidos correctamente.
